@@ -183,8 +183,8 @@ def gameWindow():
     screen_width = gameWindow.winfo_screenwidth()
     screen_height = gameWindow.winfo_screenheight()
 
-    bg = ImageTk.PhotoImage(file = "C:/Users/MBajw/OneDrive/Documents/Coding.background_project.png")
-
+    bg = ImageTk.PhotoImage(file = "C:/Users/MBajw/OneDrive/Documents/Coding/background_project.png")
+    
     canvas2 = Canvas( gameWindow, width = 500,height = 500)
     canvas2.pack(fill = "both", expand = True)
 
@@ -232,8 +232,8 @@ def askPlayerName():
     screen_width = nameWindow.winfo_screenwidth()
     screen_height = nameWindow.winfo_screenheight()
 
-    bg = ImageTk.PhotoImage(file = "C:/Users/MBajw/OneDrive/Documents/Coding.background_project.png")
-
+    bg = ImageTk.PhotoImage(file = "C:/Users/MBajw/OneDrive/Documents/Coding/background_project.png")
+    
     canvas1 = Canvas( nameWindow, width = 500,height = 500)
     canvas1.pack(fill = "both", expand = True)
 
